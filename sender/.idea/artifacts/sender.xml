@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="apk" name="sender">
+    <output-path>$PROJECT_DIR$/out/artifacts/sender</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="keyAlias" value="androiddebugkey" />
+        <option name="keyPassword" value="YW5kcm9pZA==" />
+        <option name="keyStorePassword" value="YW5kcm9pZA==" />
+        <option name="keyStoreUrl" value="file://D:/Program Files/Java/jdk1.7.0_71/jre/bin/debug.keystore" />
+        <option name="proGuardCfgFiles">
+          <list>
+            <option value="file://%MODULE_SDK_HOME%/tools/proguard/proguard-android.txt" />
+          </list>
+        </option>
+        <option name="signingMode" value="DEBUG_WITH_CUSTOM_CERTIFICATE" />
+      </options>
+    </properties>
+    <root id="archive" name="sender.apk">
+      <element id="android-final-package" facet="sender/android/Android" />
+    </root>
+  </artifact>
+</component>
